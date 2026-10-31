@@ -13,7 +13,6 @@ while type(n) != int: # обработка исключений
 product = 1.0
 current_factor = 1.1
 i = 1
-
 while i <= n:
     product *= current_factor
     current_factor += 0.1
