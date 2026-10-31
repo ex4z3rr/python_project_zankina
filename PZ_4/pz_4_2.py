@@ -14,5 +14,6 @@ power_of_three = 1
 while power_of_three <= n:
     power_of_three *= 3
     k += 1
+
 print("Наименьшее целое число K:", k)
 print(f"Проверка: 3^{k} = {power_of_three}, что больше {n}")
