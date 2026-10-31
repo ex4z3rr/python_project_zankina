@@ -11,7 +11,6 @@ while type(n) != int: # обработка исключений
         n = input("Введите целое число N (>1): ")
 k = 0
 power_of_three = 1
-
 while power_of_three <= n:
     power_of_three *= 3
     k += 1
